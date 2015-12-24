@@ -1,13 +1,12 @@
 # Getting and Cleaning Data Course Project
-## Getting the raw data and Running Script
+## Get the raw data
 1)The raw input data of the script is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 2) Please download this and extract. There will be a folder called "UCI HAR Dataset"    
 3) This will contain the test and training data with other files  
-4) Place the run_analysis.R script into this folder  
-5) Set your working directory to this folder on your terminal or in RStudio  
-6) Set source("run_analysis.R") to run script. When it's finish, it will output transformed data to tidy_data.txt  
-
-## Goals of the script
+##Run the script
+1) Place the run_analysis.R script into this folder  
+2) Set your working directory to this folder on your terminal or in RStudio  
+3) Set source("run_analysis.R") to run script. When it's finish, it will output transformed data to tidy_data.txt  
 
 ### run_analysis.R aims to do the following
 * Merges the training and the test sets to create one data set  
