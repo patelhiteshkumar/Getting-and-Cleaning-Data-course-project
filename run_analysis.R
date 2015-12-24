@@ -83,4 +83,4 @@ if (!require("dplyr")) {
   tidy_data   = dcast(melt_data, subject + Activity_Label ~ variable, mean)
    
 #Write the file 
-  write.table(tidy_data, file = "./UCI HAR Dataset/tidy_data.txt")
+  write.table(tidy_data, file = "./UCI HAR Dataset/tidy_data.txt", row.names = FALSE)
